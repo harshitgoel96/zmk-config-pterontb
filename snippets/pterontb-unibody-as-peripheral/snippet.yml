@@ -1,0 +1,4 @@
+name: pterontb-unibody-as-peripheral
+append:
+  EXTRA_CONF_FILE: pterontb-unibody-as-peripheral.conf
+  EXTRA_DTC_OVERLAY_FILE: pterontb-unibody-as-peripheral.overlay
