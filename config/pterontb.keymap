@@ -111,11 +111,11 @@
 
         Sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LEFT_BRACKET)  &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(RIGHT_BRACKET)  &trans  &trans  &trans  &trans  &trans
+&kp LS(SEMICOLON)     &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(EQUAL)          &trans  &trans  &trans  &trans  &trans
+&kp LS(GRAVE)         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(BACKSLASH)      &trans  &trans  &trans  &trans  &trans
+                                        &kp LS(N9)        &kp LS(N0)        &kp MINUS              &trans  &trans  &trans
+&trans                &trans            &trans            &trans            &trans                 &trans
             >;
         };
 
