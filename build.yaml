@@ -20,8 +20,8 @@
 ---
 include:
 
-  - board: nice_nano_v2
-    shield: pterontb_unibody
+  # - board: nice_nano_v2
+  #   shield: pterontb_unibody
 
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
@@ -35,8 +35,8 @@ include:
 ## See ZMK documentation on how to build and flash the firmware for dongle mode.
 ## The "board" for the dongle can be anything ZMK supports.
 
-  - board: nice_nano_v2
-    shield: pterontb_dongle prospector_adapter
+  # - board: seeeduino_xiao_ble
+  #   shield: pterontb_dongle prospector_adapter
 
   - board: nice_nano_v2
     shield: pterontb_unibody
@@ -44,7 +44,7 @@ include:
     artifact-name: pterontb_unibody_as_peripheral
 
   - board: seeeduino_xiao_ble
-    shield: pterontb_dongle
+    shield: pterontb_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: pterontb_dongle_with_studio
