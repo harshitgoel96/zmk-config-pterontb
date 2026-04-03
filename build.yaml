@@ -36,7 +36,7 @@ include:
 ## The "board" for the dongle can be anything ZMK supports.
 
   - board: nice_nano_v2
-    shield: pterontb_dongle
+    shield: pterontb_dongle prospector_adapter
 
   - board: nice_nano_v2
     shield: pterontb_unibody
