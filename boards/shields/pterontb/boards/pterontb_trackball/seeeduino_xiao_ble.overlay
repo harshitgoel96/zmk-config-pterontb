@@ -74,7 +74,7 @@
 / {
   trackball_listener: trackball_listner {
     compatible = "zmk,input-listener";
-    device = <&trackball>;
+    device = <&input_device_trackball0>;
     input-processors = <&zip_xy_swap_mapper>;
 
     default {
