@@ -67,6 +67,5 @@
         y-input-code = <INPUT_REL_Y>;
         irq-gpios = <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <800>;
-        force-awake;
     };
 };
