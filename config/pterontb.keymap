@@ -47,7 +47,7 @@
 &u_mt LGUI A  &u_mt LALT S  &u_mt LCTRL D   &u_mt LSHIFT F  &kp G        &kp H          &u_mt RSHIFT J     &u_mt RCTRL K   &u_mt RALT L  &u_mt RGUI SQT
 &kp Z         &kp X         &kp C           &kp V           &kp B        &kp N          &kp M              &kp COMMA       &kp PERIOD    &kp SLASH
                             &u_lt 6 ESCAPE  &u_lt 4 SPACE   &u_lt 5 TAB  &u_lt 8 ENTER  &u_lt 7 BACKSPACE  &u_lt 9 DELETE
-&mkp MB4      &mkp MB3      &mkp MB4        &lth 1 MB5      &mkp LCLK    &mkp RCLK
+&mkp MCLK     &mkp MB5      &mkp MB4        &lth 1 MB5      &mkp LCLK    &mkp RCLK
             >;
         };
 
