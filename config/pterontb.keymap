@@ -59,6 +59,8 @@
                         &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Extra";
         };
 
         Tap {
@@ -69,6 +71,8 @@
                 &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "TAP";
         };
 
         Button {
@@ -79,6 +83,8 @@
                 &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Button";
         };
 
         Nav {
@@ -89,6 +95,8 @@
                 &trans  &trans  &trans  &kp RET   &kp BACKSPACE  &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Nav";
         };
 
         Mouse {
@@ -99,6 +107,8 @@
                 &trans  &trans  &trans  &mkp MB1  &mkp MB2        &mkp MB3
 &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Mouse";
         };
 
         Media {
@@ -109,6 +119,8 @@
                 &trans  &trans  &trans  &kp C_STOP  &kp C_PLAY_PAUSE  &kp C_MUTE
 &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Media";
         };
 
         Num {
@@ -119,6 +131,8 @@
                    &kp DOT  &kp N0  &kp MINUS  &trans  &trans  &trans
 &trans     &trans  &trans   &trans  &trans     &trans
             >;
+
+            label = "Number";
         };
 
         Sym {
@@ -129,6 +143,8 @@
                                         &kp LS(N9)        &kp LS(N0)        &kp MINUS              &trans  &trans  &trans
 &trans                &trans            &trans            &trans            &trans                 &trans
             >;
+
+            label = "Symbol";
         };
 
         Fun {
@@ -139,6 +155,8 @@
                  &kp ESC  &kp SPACE  &kp TAB  &trans  &trans  &trans
 &trans   &trans  &trans   &trans     &trans   &trans
             >;
+
+            label = "Function";
         };
     };
 };
