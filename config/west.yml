@@ -7,7 +7,9 @@ manifest:
     - name: badjeff
       url-base: https://github.com/badjeff
     - name: carrefinho                            # <--- add this
-      url-base: https://github.com/carrefinho  
+      url-base: https://github.com/carrefinho 
+    - name: kot149
+      url-base: https://github.com/kot149 
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -21,5 +23,8 @@ manifest:
     - name: prospector-zmk-module                 # <--- and these
       remote: carrefinho                          # <---
       revision: main 
+    - name: zmk-scroll-snap
+      remote: kot149
+      revision: v1
   self:
     path: config
