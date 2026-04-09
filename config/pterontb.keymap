@@ -36,6 +36,16 @@
             tapping-term-ms = <150>;
             hold-while-undecided;
         };
+        // Behaviour to cycle through DPI values on a keypress
+        dpi_cycle: sensor_dpi_cycle {
+            compatible = "zmk,behavior-sensor-attr-cycle";
+            #binding-cells = <1>;
+            values = < 100 300 600 900 1200 >;
+            attr = <0>;
+            sensor_device = <&input_device_trackball0>;
+            display-name = "DPI cycle";
+            persistant;
+        };
     };
 
     keymap {
@@ -58,7 +68,7 @@
 &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
-&bootloader     &trans  &trans  &trans  &trans  &trans
+&bootloader     &trans  &trans  &trans  &dpi_cycle(1) &dpi_cycle(-1)  
             >;
 
             label = "Extra";
