@@ -10,8 +10,6 @@ manifest:
       url-base: https://github.com/carrefinho 
     - name: kot149
       url-base: https://github.com/kot149 
-    - name: george-norton
-      url-base: https://github.com/george-norton
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -28,7 +26,5 @@ manifest:
     - name: zmk-scroll-snap
       remote: kot149
       revision: v1
-    - name: zmk-behavior-sensor-attr-cycle
-      remote: george-norton
   self:
     path: config
